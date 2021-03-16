@@ -1,4 +1,15 @@
- var username =prompt("enter username");
- alert("welcome "+username);
+var btnTranslate =document.querySelector("#btn-translate");
 
-console.log("script working from external file.");
+  console.log(btnTranslate)
+
+
+btnTranslate.addEventListener("click", handleClick())
+
+function handleClick(){
+    console.log(" button clicked fuction is called")
+}    
+   
+   
+
+
+    
