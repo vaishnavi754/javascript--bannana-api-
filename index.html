@@ -7,10 +7,22 @@
     <title>banana talk</title>
     <style>
     textarea{
+    
         width:80%;
-        height:10vh;
+        height:15vh;
         margin:1rem;
         padding:1 rem;
+     }
+     #txt-output{
+         border:2px solid black;
+         width:80%;
+         height:10vh;
+         margin:1rem;
+         padding:1rem;
+     }
+     #btn-translate{
+         font-size:medium;
+         align: left;
      }
     </style>
   
@@ -18,8 +30,9 @@
 <body>
     <h1> banana talk </h1>
     <textarea id="txt-input" placeholder="enter your text to translate"></textarea>
-    <button id="btn-translate"> Click me </button>
-    <div> your output will be shown here! </div>
+    <button id="btn-translate"> Translate </button>
+    <div style="font-size:large;"> your output will be shown here! </div>
+    <div id="txt-output"></div>
        <script src="app.js" text="text/javascript"> 
         
     </script>

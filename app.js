@@ -1,11 +1,10 @@
 var btnTranslate =document.querySelector("#btn-translate");
 var txtInput=document.querySelector("#txt-input");
+var txtOutput=document.querySelector("#txt-output")
  
-  console.log(txtInput)
 
 function handleClick(){
-    console.log(" button clicked fuction is called")
-    console.log("input", txtInput.value)
+ txtOutput.innerText="abcd "+txtInput.value;
 }    
    
    btnTranslate.addEventListener("click", handleClick)
